@@ -5,10 +5,10 @@
         private static Random rand = new Random();
         static void Main(string[] args)
         {
-            int[] nums = new int[] { 8828, 9581, 49, 9818, 9974, 9869, 9991, 10000, 10000, 10000, 9999, 9993, 9904, 8819, 1231, 6309 };
-            //int[] nums = GenerateRandomNumms();
-            //int x = GetRandomNum();
-            int x = 134365;
+            //int[] nums = new int[] { 8828, 9581, 49, 9818, 9974, 9869, 9991, 10000, 10000, 10000, 9999, 9993, 9904, 8819, 1231, 6309 };
+            int[] nums = GenerateRandomNumms();
+            int x = GetRandomNum();
+            //int x = 134365;
             int minOperations = CountMinOperations(nums, x);
             Console.WriteLine(minOperations);
             Console.ReadLine();
